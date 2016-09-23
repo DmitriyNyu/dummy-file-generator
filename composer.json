@@ -1,0 +1,24 @@
+{
+    "name": "dmitriynyu/dummy-file-generator",
+    "description": "Create dummy files of arbitrary length and content for testing",
+    "type": "library",
+    "keywords": ["files", "file", "dummy"],
+    "require-dev": {
+        "phpunit/phpunit": "^5.5",
+        "jkuchar/bigfiletools": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Nyu",
+            "email": "nyudmitriy@gmail.com",
+            "homepage": "https://dmitriynyu.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": { },
+    "autoload": {
+        "psr-4": { "DummyFileGenerator\\": "src/" }
+    }
+}
